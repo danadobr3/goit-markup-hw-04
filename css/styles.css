@@ -480,22 +480,7 @@ margin-right: 120px;
 .intr-images-link {
     
 }
-.intr-images-icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        background-color: var(--background);
-        border-radius: 4px;
-        margin-bottom: 8px;
-        width: 264px;
-}
-.intr-images-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-.icons-wawd {
+.pouring {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -504,6 +489,11 @@ margin-right: 120px;
     border-radius: 4px;
     margin-bottom: 8px;
     width: 264px;
+}
+.intr-images-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .elements {
     width: calc((100% - 72px) / 4);
