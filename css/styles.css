@@ -362,7 +362,7 @@ padding-bottom: 120px;
 .customers-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 24px;
 }
 .customers-item {
     width: calc((100% - 120px) / 6);
@@ -392,7 +392,7 @@ fill: currentColor;
 /* Section three */
 .team-icons {
     display: flex;
-    fill: none;
+    fill: var(--background);
 }
 .team-list {
 display: flex;
@@ -428,7 +428,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* Footer */
 .footer-icons {
     display: flex;
-    fill: none;
+    fill: var(--background);
 }
 
 .footer-list {
@@ -459,15 +459,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-link:focus {
     background-color: #31d0aa;
 }
+.additional {
+    display: flex;
+    align-items: baseline;
+}
+.another-logo {
+margin-right: 120px;
+}
 .section-footer {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-}
-
-.additional {
-    display: flex;
-    align-items: baseline;
 }
 .paragraph-footer {
     font-weight: 500;
