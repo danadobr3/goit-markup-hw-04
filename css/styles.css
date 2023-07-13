@@ -59,8 +59,9 @@ position: absolute;
 left: 0;
 bottom: -1px;
 height: 4px;
-background-color: var(--normal);
+background-color: var(--active);
 border-radius: 2px;
+content: "";
 }
 
 .nav:hover,
