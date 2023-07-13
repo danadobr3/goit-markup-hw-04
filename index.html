@@ -22,27 +22,27 @@
     <header class="line-header">
       <div class="header container">
         <nav class="line-nav">
-          <a href="./index.html" target="_self" class="logo link"
+          <a href="./index.html" target="_self" class="logo-link"
             >Web<span class="accent">Studio</span></a
           >
           <ul class="menu">
             <li>
-              <a class="nav link active" href="./index.html" target="_self">Studio</a>
+              <a class="nav-link active" href="./index.html" target="_self">Studio</a>
             </li>
             <li>
-              <a class="nav link" href="./portfolio.html" target="_self">Portfolio</a>
+              <a class="nav-link" href="./portfolio.html" target="_self">Portfolio</a>
             </li>
             <li>
-              <a class="nav link" href="">Contacts</a>
+              <a class="nav-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="address">
           <ul class="menu">
             <li>
-              <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li><a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
       </div>
@@ -52,7 +52,7 @@
       <section class="background">
         <div class="container">
           <h1 class="text-main">Effective Solutions for Your Business</h1>
-          <button class="button-main" type="button">Order Service</button>
+          <button class="button-main" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
       <!-- Section one -->
@@ -377,7 +377,7 @@
     <footer class="footer">
       <div class="additional container">
         <div class="another-logo">
-        <a href="./index.html" target="_self" class="logos link"
+        <a href="./index.html" target="_self" class="logos-link"
           >Web<span class="studio">Studio</span>
         </a>
         <p class="text-fotter">
@@ -424,13 +424,15 @@
       </div>
     </footer>
     <!-- Modal window -->
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-         <a href="" class="modal-icons-link"><svg class="modal-icon" width="8" height="8">
+         <button class="modal-btn" data-modal-close> 
+         <svg class="modal-icon" width="8" height="8">
               <use href="./images/icons.svg#close-black"></use>
             </svg>
-            </a>
+           </button>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
