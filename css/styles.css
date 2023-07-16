@@ -620,5 +620,8 @@ min-height: 584px;
     background-color: var(--white);
     text-decoration: none;
     width: calc((100% - 48px) / 3);
+}
+.cards-portfolio:hover,
+.cards-portfolio:focus {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
