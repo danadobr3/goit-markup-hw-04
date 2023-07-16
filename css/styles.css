@@ -589,7 +589,7 @@ min-height: 584px;
     top: 0;
     left: 0;
     padding: 40px 32px;
-    background-color: var(--active);
+    background-color: var(--button);
     height: 100%;
     width: 100%;
     transform: translateY(100%);
@@ -620,14 +620,5 @@ min-height: 584px;
     background-color: var(--white);
     text-decoration: none;
     width: calc((100% - 48px) / 3);
-}
-.cards-portfolio:hover,
-.cards-portfolio:focus {
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cards-portfolio:hover .overlay
-.cards-portfolio:focus .overlay {
-    transform: translateY(0%);
-    
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
